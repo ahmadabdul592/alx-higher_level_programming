@@ -6,4 +6,4 @@ def uppercase(str):
         else:
             char = c
         print(f"{char:s}", end="")
-    print(' ')
+    print('\n')
