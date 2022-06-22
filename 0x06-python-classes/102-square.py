@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""Returns the Comparison of two Squares"""
+
+
 class Square:
     """Represents a square.
     Private instance attribute: size:
