@@ -1,3 +1,4 @@
+
 ========================================================================
 'Test for 101-lazy_matrix_mul module'
 ========================================================================
@@ -63,7 +64,7 @@ Traceback (most recent call last):
 ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 1 is different from 3)
 
 'm_b is not a list of integers or floats'
->>> lazy_matrix_mul([[3, 4], [6, 5]], "Meco")
+>>> lazy_matrix_mul([[3, 4], [6, 5]], "Ahmad")
 Traceback (most recent call last):
 ...
 ValueError: matmul: Input operand 1 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
@@ -75,13 +76,13 @@ Traceback (most recent call last):
 ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 1 is different from 4)
 
 'm_b is not a list of lists of integers'
->>> lazy_matrix_mul([[3, 4.3, 6.5, 5]], ["Meco", 7])
+>>> lazy_matrix_mul([[3, 4.9, 7.5, 5]], ["Ahmad", 7])
 Traceback (most recent call last):
 ...
 ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 4)
 
 'm_a is an empty list'
->>> lazy_matrix_mul([], ["Meco", 7])
+>>> lazy_matrix_mul([], ["Ahmad", 9])
 Traceback (most recent call last):
 ...
 ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 0)
