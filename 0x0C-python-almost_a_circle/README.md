@@ -2,7 +2,7 @@
 
 ## Description
 
-In this project, we review everything about Python:
+In this project, we review everything Learnt about Python:
 
 * Import
 * Exceptions
